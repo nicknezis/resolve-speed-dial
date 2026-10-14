@@ -1,0 +1,6 @@
+bin/
+obj/
+*.user
+*.lplug4
+.DS_Store
+*.csproj.user

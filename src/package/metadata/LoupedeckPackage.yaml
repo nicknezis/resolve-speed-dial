@@ -1,0 +1,30 @@
+# Package type. Must be plugin4 for plugins.
+type: plugin4
+
+# Identifier. Must match <PluginShortName> in the csproj (used by the reload URL).
+name: ResolveSpeedDial
+
+displayName: Resolve Speed Dial
+description: Prototype - Speed Editor style JOG / SHTL / SCRL dial modes for DaVinci Resolve on the MX Creative Console.
+
+pluginFileName: ResolveSpeedDialPlugin.dll
+version: 0.1
+
+author: Nicholas Nezis
+copyright: Copyright © 2026 Nicholas Nezis
+
+# Location of plugin files relative to the plugin base directory.
+pluginFolderWin: bin
+pluginFolderMac: bin
+
+supportedDevices:
+    - LoupedeckCtFamily
+    - LoupedeckExtendedFamily
+
+# Universal plugin (no pluginCapabilities): actions appear in every application's profile.
+
+minimumLoupedeckVersion: 6.1
+
+license: MIT
+licenseUrl: https://opensource.org/licenses/MIT
+icon256x256: Icon256x256.png
